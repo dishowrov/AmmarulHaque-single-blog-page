@@ -1,0 +1,592 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* Banner section - started */
+.single-blog-banner {
+  background: linear-gradient(90deg, rgba(43, 135, 218, 0.61) 0%, rgba(0, 0, 0, 0.56) 100%), url(https://www.albalaghacademy.org/wp-content/uploads/2024/08/Revising-The-Fiqh-of-Khamr-and-Alcohol.png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 15px;
+  margin-bottom: 40px;
+}
+
+.single-blog-banner h6.blog-breadcrumb {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+h6.blog-breadcrumb a {
+  color: inherit;
+}
+
+h1.blog-title {
+  color: #fff;
+  font-size: 45px;
+  margin-top: 15px;
+}
+
+/* Banner section - ended */
+
+/* Main contents section - started */
+h5.blog-meta {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: rgb(28, 25, 81);
+}
+
+h5.blog-meta a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pdf-copy-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.pdf-copy-sec button {
+  margin: 45px 0 25px 0;
+  padding: 15px;
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.blog-content {
+  padding: 5px;
+}
+
+.blog-content p {
+  margin-bottom: 15px;
+}
+
+.newsletter {
+  padding-bottom: 55px;
+}
+
+.newsletter h2.newsletter-title {
+  font-size: 27px;
+  margin-bottom: 25px;
+}
+
+.newsletter form.newsletter-form {
+  display: grid;
+  gap: 15px;
+}
+
+.newsletter form.newsletter-form input {
+  padding: 9px;
+  font-size: 17px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.newsletter form.newsletter-form input[type=submit] {
+  cursor: pointer;
+  background-color: rgb(21, 21, 88);
+  color: aliceblue;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.newsletter form.newsletter-form input[type=submit]:hover {
+  color: rgb(21, 21, 88);
+  background-color: #FFF;
+}
+
+.prev-next-post a.the-post {
+  background-color: antiquewhite;
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  margin-bottom: 15px;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+
+.prev-next-post a.the-post img {
+  height: 125px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+
+.prev-next-post a.the-post:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.prev-next-post a.the-post span {
+  padding: 5px 9px;
+  font-size: 13px;
+  color: rgb(21, 21, 88);
+}
+
+.prev-next-post a.the-post h3 {
+  padding: 0px 9px 15px 9px;
+  font-size: 17px;
+  color: rgb(21, 21, 88);
+}
+
+/* Main contents section - ended */
+
+/* Related blogs section - started */
+.related-blogs {
+  background-color: antiquewhite;
+  padding: 80px 15px;
+  margin: 80px 0;
+}
+
+h2.related-blogs-title {
+  margin-bottom: 40px;
+}
+
+.related-blog-card {
+  box-shadow: 0 0 15px 0 #00000021;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.related-blog-card a {
+  text-decoration: none;
+}
+
+a.blog-card-thumb {
+  display: block;
+  height: 205px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+a.blog-card-thumb img {
+  height: 110%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-card-info {
+  padding: 15px 9px;
+}
+
+h4.blog-card-title {
+  font-size: 15px;
+  color: rgb(21, 21, 88);
+}
+
+h6.blog-card-meta {
+  color: rgb(21, 21, 88);
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin: 11px 0;
+}
+
+p.blog-card-excerpt {
+  font-size: 13px;
+  color: rgb(28, 25, 81);
+}
+
+.blogs-button {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.blogs-button a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(21, 21, 88);
+  border: 1px solid rgb(21, 21, 88);
+  padding: 15px 25px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.blogs-button a:hover {
+  color: rgb(21, 21, 88);
+  background-color: transparent;
+}
+
+/* Related blogs section - ended */
+
+/* Author details section - started */
+.author-details {
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.author-details img.author-img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+h5.author-name {
+  margin: 21px 0;
+  font-size: 21px;
+}
+
+p.author-details {
+  color: rgb(28, 25, 81);
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.author-social-links {
+  border: 1px solid gainsboro;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.author-social-links a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(21, 21, 88);
+  padding: 25px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.author-social-links a:hover {
+  color: aliceblue;
+  background-color: rgb(21, 21, 88);
+}
+
+/* Author details section - ended */
+
+
+/* Comment section - started */
+.comment-area {
+  margin-bottom: 9rem;
+}
+
+.comment-area .commented {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.comment-area .commented h3.commented-title {
+  color: rgb(21, 21, 88);
+  font-size: 27px;
+  margin-bottom: 1.7rem;
+  padding-bottom: 1.7rem;
+  border-bottom: 1px solid rgb(21, 21, 88);
+}
+
+.comment-area .commented .comments .comment {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(21, 21, 88, 0.3);
+  margin-bottom: 1.5rem;
+}
+
+.comment-area .commented .comments .comment .commenter-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.comment-area .commented .comments .comment .commenter-info img.commenter-img {
+  height: 51px;
+  width: 51px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.comment-area .commented .comments .comment .commenter-info .comment-meta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.comment-area .commented .comments .comment .commenter-info .comment-meta .commenter-name {
+  font-size: 1rem;
+  color: rgb(21, 21, 88);
+}
+
+.comment-area .commented .comments .comment .commenter-info .comment-meta p.commented-time {
+  font-size: .7rem;
+  color: rgba(21, 21, 88, 0.5);
+}
+
+.comment-area .commented .comments .comment p.commenter-comment {
+  font-size: 1rem;
+  color: rgb(21, 21, 88);
+  margin: 1rem 0;
+}
+
+.comment-area .commented .comments .comment button.comment-reply-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(21, 21, 88);
+  border: 1px solid rgb(21, 21, 88);
+  padding: 0.5rem 1rem;
+  font-size: 0.6rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  transition: all linear 0.3s;
+}
+
+.comment-area .commented .comments .comment button.comment-reply-btn:hover {
+  color: rgb(21, 21, 88);
+  background-color: #fff;
+}
+
+.comment-area .commented .comments .comment h3.leave-comment-title {
+  color: rgb(21, 21, 88);
+  font-size: 21px;
+  padding-top: 1rem;
+}
+
+.comment-area .leave-comment {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.comment-area .leave-comment h3.leave-comment-title {
+  color: rgb(21, 21, 88);
+  font-size: 27px;
+}
+
+
+.comment-area .leave-comment .leave-comment-alert {
+  font-size: 0.7rem;
+  margin: 1rem 0;
+  color: rgb(21, 21, 88);
+  margin-bottom: 1.7rem;
+  padding-bottom: 1.7rem;
+  border-bottom: 1px solid rgb(21, 21, 88);
+}
+
+.comment-area .leave-comment form.comment-form {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.comment-area .leave-comment form.comment-form input,
+.comment-area .leave-comment form.comment-form textarea {
+  border: 1px solid gray;
+  padding: 0.5rem;
+  color: rgb(21, 21, 88);
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.comment-area .leave-comment form.comment-form input:focus,
+.comment-area .leave-comment form.comment-form textarea:focus {
+  border: 1px solid rgb(21, 21, 88);
+}
+
+.comment-area .leave-comment form.comment-form textarea {
+  grid-column: 1 / -1;
+}
+
+.comment-area .leave-comment form.comment-form input[type=submit] {
+  grid-column: 1 / -1;
+  color: #FFF;
+  cursor: pointer;
+  background-color: rgb(21, 21, 88);
+  border: 1px solid rgb(21, 21, 88);
+  border-radius: 0.3rem;
+  transition: all linear 0.3s;
+}
+
+.comment-area .leave-comment form.comment-form input[type=submit]:hover {
+  color: rgb(21, 21, 88);
+  background-color: #fff;
+}
+
+
+/* Comment section - ended */
+
+
+
+/* Blog sharing section - started */
+.blog-share {
+  position: fixed;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  display: grid;
+  gap: 15px;
+}
+
+.blog-share a,
+.blog-share button {
+  color: rgb(21, 21, 88);
+  padding: 11px;
+  background-color: #fff;
+  box-shadow: 0 0 9px #00000021;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.blog-share i {
+  font-size: 24px;
+}
+
+.blog-share a:hover,
+.blog-share button:hover {
+  color: aliceblue;
+  background-color: rgb(21, 21, 88);
+}
+
+.blog-share button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Blog sharing section - ended */
+
+@media (max-width: 990.1px) {
+  h1.blog-title {
+    font-size: 35px;
+  }
+
+  .related-blogs {
+    padding: 45px 15px;
+    margin: 45px 0;
+  }
+
+  .related-blog-card {
+    margin-bottom: 1rem;
+  }
+
+  .pdf-copy-sec button {
+    margin: 25px 0 15px 0;
+    padding: 9px;
+    font-size: 12px;
+  }
+
+  .blog-sharing-floating {
+    display: none;
+  }
+}
+
+@media (min-width: 990.1px) {
+  .blog-sharing-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767.1px) {
+  h5.blog-meta {
+    font-size: 11px;
+  }
+
+  .blog-content p {
+    font-size: 14px;
+  }
+
+  h2.related-blogs-title {
+    margin-bottom: 25px;
+  }
+
+  .blogs-button {
+    margin-top: 25px;
+  }
+
+  .newsletter h2.newsletter-title {
+    font-size: 21px;
+  }
+
+  .comment-area .commented h3.commented-title {
+    font-size: 21px;
+  }
+
+  .comment-area .leave-comment h3.leave-comment-title {
+    font-size: 21px;
+  }
+
+  .comment-area .commented .comments .comment .commenter-info .comment-meta {
+    display: grid;
+  }
+
+  .comment-area .leave-comment form.comment-form {
+    grid-template-columns: 1fr;
+  }
+}
