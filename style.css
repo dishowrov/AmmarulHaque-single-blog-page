@@ -709,4 +709,26 @@ p.author-details {
   background-color: #FFF;
 }
 
+.blogs button.blog-items-load-btn {
+  font-weight: 500;
+  color: #FFF;
+  background-color: rgb(21, 21, 88);
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  cursor: pointer;
+  font-size: 1rem;
+  display: block;
+  border: 1px solid rgb(21, 21, 88);
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+
+.blogs button.blog-items-load-btn:hover {
+  color: rgb(21, 21, 88);
+  background-color: #FFF;
+}
+
 /* ----------------------------------------------- All blogs - css ended ----------------------------------------------- */
